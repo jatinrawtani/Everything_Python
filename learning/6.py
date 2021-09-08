@@ -1,0 +1,6 @@
+a=input("Enter number of pens:")
+b=input("Enter number of pencils:")
+x=input("Enter cost of pens:")
+y=input("Enter cost of pencils:")
+pay=float(a)*float(x)+float(b)*float(y)
+print("Total cost:",pay)
