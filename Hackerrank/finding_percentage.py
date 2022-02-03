@@ -1,7 +1,10 @@
 N=int(input())
 db={}
 for i in range(N):
-    name,db[name]=input(),float(input().split())
+    name,a,b,c=input().split()
+    a,b,c=float(a),float(b),float(c)    
+    db[name]=[a,b,c]
 x=input()
 if x in db:
-    print(sum(db[x])/3)
+    j=(sum(db[x])/3)
+    print("%.2f"%j)
